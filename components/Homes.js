@@ -1,4 +1,4 @@
-import Header from "@/pages/Header";
+
 import Nav from "./Nav";
 import Navbar from "./Navbar";
 
