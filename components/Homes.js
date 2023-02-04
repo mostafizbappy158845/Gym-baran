@@ -1,4 +1,5 @@
 
+import Hero from "./Hero";
 import Nav from "./Nav";
 import Navbar from "./Navbar";
 
@@ -9,6 +10,7 @@ const Homes = () => {
            {/* <Navbar></Navbar>  */}
            {/* <Header></Header> */}
            <Nav></Nav>
+           <Hero></Hero>
         </div>
     );
 };

@@ -13,10 +13,10 @@ const Nav = () => {
     ]
     const [open, setOpen] = useState(false);
     return (
-        <div className="shadow-md w-full fixed top-0 left-0">
-            <div className="md:flex bg-white items-center justify-between py-4 md:px-10 px-7">
+        <div className="shadow-md   w-full fixed top-0 left-0">
+            <div className="md:flex bg-white   items-center justify-between py-4 md:px-10 px-7">
                 <div className="font-normal text-2xl cursor-pointer flex items-center font-['Sporting_Grotesque']">
-                    <span className="bg-[#6765F0] text-white rounded-[10px] mr-1 p-2">
+                    <span className="bg-[#6765F0] text-white rounded-[10px] mr-1 py-0 px-1">
                         Gym
                     </span>
 
@@ -30,8 +30,8 @@ const Nav = () => {
                     </svg>
                     :
                    
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                        <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                        <path fillRule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clipRule="evenodd" />
                     </svg>}
 
                 </div>
