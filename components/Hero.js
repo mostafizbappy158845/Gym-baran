@@ -4,7 +4,7 @@ import brandPic from '../public/assets/brand-pic.png';
 
 const Hero = () => {
     return (
-        <section className="px-32 py-32">
+        <section className="px-28 py-32">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center gap-5 ">
                 <div className="basis-1/2">
                     <span className=" font-bold lg:text-[56px] md:text-[28px] tracking-widest text-[#262524]">Healthy in side</span> <br />
@@ -30,14 +30,14 @@ const Hero = () => {
                                 Learn more
 
                             </button>
-                            
+
 
                         </div>
                         <div className='mt-12'>
                             <p className='text-[#262524;]'>
                                 Brands:</p>
-                                <Image className='mt-4' src={brandPic} alt='brand-pic'/>
-                            </div>
+                            <Image className='mt-4' src={brandPic} alt='brand-pic' />
+                        </div>
                     </div>
                 </div>
                 <div className="basis-1/2  ">
