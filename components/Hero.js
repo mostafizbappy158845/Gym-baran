@@ -1,14 +1,15 @@
 import Image from 'next/image';
-import grouppic from '../public/assets/Group 4227.png'
+import grouppic from '../public/assets/Group 4227.png';
+import brandPic from '../public/assets/brand-pic.png';
 
 const Hero = () => {
     return (
         <section className="px-32 py-32">
-            <div className="grid grid-cols-2 items-center justify-items-center gap-5 ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center gap-5 ">
                 <div className="basis-1/2">
-                    <span className=" font-bold text-[56px] tracking-widest text-[#262524]">Healthy in side</span> <br />
-                    <span className="font-bold text-[56px] tracking-widest text-[#8382EB]">fresh</span>
-                    <span className="font-bold text-[56px] tracking-widest"> out side</span>
+                    <span className=" font-bold lg:text-[56px] md:text-[28px] tracking-widest text-[#262524]">Healthy in side</span> <br />
+                    <span className="font-bold lg:text-[56px] md:text-[28px] tracking-widest text-[#8382EB]">fresh</span>
+                    <span className="font-bold lg:text-[56px] md:text-[28px] tracking-widest"> out side</span>
                     <div className="pt-4">
                         <span className="text-[#262524] tracking-widest opacity-60 font-normal"> Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</span>
                         <div className="pt-4"></div>
@@ -29,14 +30,18 @@ const Hero = () => {
                                 Learn more
 
                             </button>
-
-
+                            
 
                         </div>
+                        <div className='mt-12'>
+                            <p className='text-[#262524;]'>
+                                Brands:</p>
+                                <Image className='mt-4' src={brandPic} alt='brand-pic'/>
+                            </div>
                     </div>
                 </div>
-                <div className="basis-1/2 top-44 ">
-                    <Image className='w-[210px] h-[340px] object-cover lg:w-[584px] lg:h-[580px] ' src={grouppic} alt="pic" />
+                <div className="basis-1/2  ">
+                    <Image className='w-full h-[340px] object-cover lg:w-[584px] lg:h-[580px] ' src={grouppic} alt="pic" />
 
                 </div>
 

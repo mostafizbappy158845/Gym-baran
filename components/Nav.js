@@ -14,7 +14,7 @@ const Nav = () => {
     const [open, setOpen] = useState(false);
     return (
         <div className="shadow-md   w-full fixed top-0 left-0">
-            <div className="md:flex bg-white   items-center justify-between py-4 md:px-10 px-7">
+            <div className="md:flex bg-white   items-center justify-between py-4 md:px-10 px-7 lg:px-24">
                 <div className="font-normal text-2xl cursor-pointer flex items-center font-['Sporting_Grotesque']">
                     <span className="bg-[#6765F0] text-white rounded-[10px] mr-1 py-0 px-1">
                         Gym
