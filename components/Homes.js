@@ -3,6 +3,7 @@ import Healthy from "./Healthy";
 import Hero from "./Hero";
 import Nav from "./Nav";
 import Navbar from "./Navbar";
+import StaticBar from "./StaticBar";
 
 
 const Homes = () => {
@@ -13,6 +14,7 @@ const Homes = () => {
            <Nav></Nav>
            <Hero></Hero>
            <Healthy></Healthy>
+           <StaticBar></StaticBar>
         </div>
     );
 };
