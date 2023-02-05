@@ -14,7 +14,7 @@ const Nav = () => {
     const [open, setOpen] = useState(false);
     return (
         // fixed top-0 left-0
-        <div className="shadow-md top-0 left-0   w-full  ">
+        <div className="shadow-md fixed top-0 left-0   w-full  ">
             <div className="md:flex bg-white   items-center justify-between py-4 md:px-10 px-7 lg:px-28">
                 <div className="font-normal text-2xl cursor-pointer flex items-center font-['Sporting_Grotesque']">
                     <span className="bg-[#6765F0] text-white rounded-[10px] mr-1 py-0 px-1">
@@ -39,12 +39,12 @@ const Nav = () => {
                      {/* name={open? 'close': 'menu'} */}
                     {/* <Bars3Icon name={open? 'close': 'menu'} ></Bars3Icon> */}
                 <ul className={`md:flex md:items-certer md:pb-0 pb-10 absolute md:static
-                bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${!open? 'top-20 ': 'top-[-490px]'}`}>
+                bg-[#262524] md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${!open? 'top-2 ': 'top-[-490px]'}`}>
                    {/*opacity-100, md:opacity-100 opacity-0 */}
                     {
                         links.map(link => (
                             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-                                <a href={link.link} className="hover:text-[#6765f0]">{link.name}</a>
+                                <a href={link.link} className="text-white">{link.name}</a>
                             </li>
                         ))
                     }
