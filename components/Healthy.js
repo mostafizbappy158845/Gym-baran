@@ -2,8 +2,8 @@
 
 const Healthy = () => {
     return (
-        <section className="mx:6 my:4 lg:mx-32 lg:mb-28 ">
-            <div className=" grid gap-[12px] grid-cols-1 lg:grid-cols-2">
+        <section className="mx-6 my-4 lg:mx-32 lg:mb-28 ">
+            <div className=" max-w[1232px] grid gap-[12px] grid-cols-1 lg:grid-cols-2">
                 <div>
                     <h1 className="font-bold text-lg lg:font-normal lg:text-[46px] text-[#262524] tracking-[.01em] leading-[39px] lg:leading-[73px] ">
                     Healthy in side <br /> fresh out side

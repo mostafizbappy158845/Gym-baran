@@ -4,8 +4,8 @@ import brandPic from '../public/assets/brand-pic.png';
 
 const Hero = () => {
     return (
-        <section className="px-28 py-32">
-            <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center gap-5 ">
+        <section className="px-28 py-32 ">
+            <div className="max-w-[1279px] grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center gap-5 ">
                 <div className="basis-1/2">
                     <span className=" font-bold lg:text-[56px] md:text-[28px] tracking-widest text-[#262524]">Healthy in side</span> <br />
                     <span className="font-bold lg:text-[56px] md:text-[28px] tracking-widest text-[#8382EB]">fresh</span>

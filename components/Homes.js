@@ -1,4 +1,5 @@
 
+import BestFullBody from "./BestFullBody";
 import Healthy from "./Healthy";
 import Hero from "./Hero";
 import Nav from "./Nav";
@@ -15,6 +16,7 @@ const Homes = () => {
            <Hero></Hero>
            <Healthy></Healthy>
            <StaticBar></StaticBar>
+           <BestFullBody></BestFullBody>
         </div>
     );
 };
