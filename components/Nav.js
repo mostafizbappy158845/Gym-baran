@@ -12,7 +12,6 @@ const Nav = () => {
     ]
     const [open, setOpen] = useState(true);
     return (
-        // fixed top-0 left-0
         <div className=" fixed top-0 left-0   w-full  ">
             <div className="md:flex bg-white   items-center justify-between py-4 md:px-10 px-7 lg:px-28">
                 <div className="font-normal text-2xl cursor-pointer flex items-center font-['Sporting_Grotesque']">
@@ -22,7 +21,6 @@ const Nav = () => {
 
                     <span className="text-[#6765F0]">baran </span>
                 </div>
-                {/* onClick={()=>setOpen(!open)} */}
                 <div onClick={() => setOpen(!open)} className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
                     {open?
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -35,11 +33,9 @@ const Nav = () => {
                     </svg>}
 
                 </div>
-                     {/* name={open? 'close': 'menu'} */}
-                    {/* <Bars3Icon name={open? 'close': 'menu'} ></Bars3Icon> */}
                 <ul className={`md:flex md:items-certer md:pb-0 pb-10 absolute  md:static
                 bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${!open? 'top-10 ': 'top-[-490px]'}`}>
-                   {/*opacity-100, md:opacity-100 opacity-0 */}
+                  
                     {
                         links.map(link => (
                             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">

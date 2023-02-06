@@ -3,11 +3,9 @@ import dancerMotion from '../public/assets/dancerMotion.png'
 
 const StaticBar = () => {
     return (
-        // mx-24 py-10
         <section className=" mx-10 px-2 ">
-            {/* max-w-[1236px] max-h-[412px]  lg:flex-col-3 */}
             <div className=" max-w-[1100px] rounded-[30px] bg-gradient-to-r from-[#6462F0] to-[#9190E9] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center justify-items-center gap-[40px] p-7">
-                {/* sm:pb-5 md:pb-7  */}
+                
                 <div className="flex relative  flex-col-2   justify-items-center gap-4 ">
                     <div className=" w-[100px] h-[100px] rounded-[20px] bg-[#A09EEE]">
                         <div >
@@ -28,7 +26,7 @@ const StaticBar = () => {
                         </div>
                     </div>
                 </div>
-                    {/* sm:pb-5 md:pb-7 */}
+                    
                 <div className="flex flex-col-2  justify-items-center gap-8 ">
                     <div className="w-[100px] h-[100px] rounded-[20px] bg-white backdrop-blur-[32px] opacity-20">
                         {/* <Image className="" src={dancerMotion} alt='dancerMotion'></Image> */}
@@ -48,7 +46,7 @@ const StaticBar = () => {
                     </div>
 
                 </div>
-                {/* sm:pb-5 md:pb-7 */}
+            
                 <div className="flex flex-col-2  justify-items-center gap-8">
                     <div className="w-[100px] h-[100px] rounded-[20px] bg-white backdrop-blur-[32px] opacity-20">
                         {/* <Image className="" src={dancerMotion} alt='dancerMotion'></Image> */}
