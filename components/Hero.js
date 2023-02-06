@@ -11,7 +11,7 @@ const Hero = () => {
                     <span className="font-bold lg:text-[56px] md:text-[28px] tracking-widest text-[#8382EB]">fresh</span>
                     <span className="font-bold lg:text-[56px] md:text-[28px] tracking-widest"> out side</span>
                     <div className="pt-4">
-                        <span className="text-[#262524] tracking-widest opacity-60 font-normal"> Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</span>
+                        <span className="text-[#928f8a] tracking-widest  font-normal"> Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</span>
                         <div className="pt-4"></div>
                         <div className="flex">
 

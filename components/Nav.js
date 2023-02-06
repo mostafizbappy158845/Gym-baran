@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useState } from "react";
-import { Bars3Icon } from '@heroicons/react/24/solid'
 
 
 const Nav = () => {
@@ -11,7 +10,7 @@ const Nav = () => {
         { name: 'Blog', link: '/', },
         { name: 'About us', link: '/', },
     ]
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
     return (
         // fixed top-0 left-0
         <div className="shadow-md fixed top-0 left-0   w-full  ">
@@ -38,13 +37,13 @@ const Nav = () => {
                 </div>
                      {/* name={open? 'close': 'menu'} */}
                     {/* <Bars3Icon name={open? 'close': 'menu'} ></Bars3Icon> */}
-                <ul className={`md:flex md:items-certer md:pb-0 pb-10 absolute md:static
-                bg-[#262524] md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${!open? 'top-2 ': 'top-[-490px]'}`}>
+                <ul className={`md:flex md:items-certer md:pb-0 pb-10 absolute  md:static
+                bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${!open? 'top-10 ': 'top-[-490px]'}`}>
                    {/*opacity-100, md:opacity-100 opacity-0 */}
                     {
                         links.map(link => (
                             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-                                <a href={link.link} className="text-white">{link.name}</a>
+                                <a href={link.link} className="text-[#262524]">{link.name}</a>
                             </li>
                         ))
                     }

@@ -10,7 +10,7 @@ const Healthy = () => {
                     </h1>
                 </div>
                 <div className="">
-                    <p className="text-[#262524] text-xs leading-[22px] lg:leading-[28px] lg:text-base tracking-[.01em] opacity-50">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. Healthy life makes you more excited to live the day </p>
+                    <p className="text-[#928f8a] text-xs leading-[22px] lg:leading-[28px] lg:text-base tracking-[.01em]">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. Healthy life makes you more excited to live the day </p>
                 </div>
             </div>
         </section>
