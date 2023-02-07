@@ -7,7 +7,7 @@ import head1 from '../public/assets/head1.png'
 const StaticBar = () => {
     return (
         // mx-10 px-2 
-        <section className=" px-6 md:px-12 lg:px-24   lg:pt-20 ">
+        <section className="bg-gray-50 px-6 md:px-12 lg:px-24   lg:pt-20 ">
             {/* mx-10 max-w-[1100px] */}
             {/* container px-6 md:px-12   lg:pt-20 */}
             {/* px-12 pt-[120px] md:pt-[200px] */}

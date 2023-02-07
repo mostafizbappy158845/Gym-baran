@@ -11,8 +11,8 @@ const Hero = () => {
 
         <section className=''>
             {/* container  */}
-            <div className="flex flex-col md:flex-row items-center justify-center  px-6 md:px-12   lg:pt-20">
-                <div className='px-12 pt-[120px] md:pt-[200px] flex flex-col   md:w-1/2'>
+            <div className="bg-gradient-to-t from-purple-50 via-purple-50 to-purple-50 bg-opacity-5 flex flex-col md:flex-row items-center justify-center  px-6 md:px-12   lg:pt-20">
+                <div className=' px-12 pt-[120px] md:pt-[200px] flex flex-col   md:w-1/2'>
                     <h1 className='max-w-md  font-bold mb-4 tracking-[.01em] leading-[39px]  text-[28px] font-["Sporting_Grotesque"]  lg:text-[56px] md:leading-[47px] lg:leading-[73px]'>Healthy in side<br /> <span className='text-[#8382EB]'> fresh</span> out side</h1>
                     <p className='max-w-sm font-normal text-[#928f8a] text-justify
                     text-xs leading-[22px] lg:leading-[28px] lg:text-base tracking-[.01em]
@@ -41,7 +41,7 @@ const Hero = () => {
 
 
                         </div>
-                        <div className='mt-12 mb-12'>
+                        <div className=' mt-12 mb-12'>
                             <p className='text-[#262524;]'>
                                 Brands:</p>
                             <Image className='mt-4' src={brandPic} alt='brand-pic' />
@@ -51,7 +51,7 @@ const Hero = () => {
 
                 </div>
                 {/* Right-item */}
-                <div className='md:w-1/2'>
+                <div className=' md:w-1/2'>
                     <Image src={grouppic} alt='' />
                 </div>
 

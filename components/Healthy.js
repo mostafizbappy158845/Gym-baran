@@ -2,7 +2,8 @@
 
 const Healthy = () => {
     return ( 
-        <section className=" px-6 md:px-12 ">
+        // bg-[#E5E5E5] bg-opacity-5
+        <section className="bg-gray-50 px-6 md:px-12 ">
             <div className=" px-12 flex flex-col md:flex-row  ">
                 <div className=" md:w-1/2">
                     <h1 className=" max-w-md  font-bold mb-4 tracking-[.01em] leading-[39px]  text-[28px] font-['Sporting_Grotesque'] lg:text-[56px] md:leading-[47px] lg:leading-[73px] ">

@@ -5,8 +5,8 @@ import ArrowRight from '../public/assets/ArrowRight.png'
 const BestFullBody = () => {
     return (
         
-        <section className="">
-            <div className="flex  flex-col-reverse md:flex-row items-center justify-center  px-6 md:px-12 lg:pt-20 ">
+        <section className="bg-gray-50">
+            <div className=" flex  flex-col-reverse md:flex-row items-center justify-center  px-6 md:px-12 lg:pt-20 ">
                 <div className=" pt-[40px]   md:w-1/2">
                     <Image src={bestFullBody} alt='' />
                 </div>
