@@ -7,11 +7,11 @@ const BestFullBody = () => {
         
         <section className="">
             <div className="flex  flex-col-reverse md:flex-row items-center justify-center  px-6 md:px-12 lg:pt-20 ">
-                <div className=" pt-[120px] md:pt-[200px]  md:w-1/2">
+                <div className=" pt-[40px]   md:w-1/2">
                     <Image src={bestFullBody} alt='' />
                 </div>
                 <div className="px-12 mt-12 container flex flex-col   md:w-1/2 ">
-                    <h1 className="max-w-md  font-bold mb-4 tracking-[.01em] leading-[39px]  text-[28px] font-['Sporting_Grotesque']  lg:text-[56px] md:leading-[47px] lg:leading-[73px]">Best full body <br />workout to lose fat</h1>
+                    <h1 className="max-w-md  font-bold mb-4 tracking-[.01em] leading-[39px]  text-[28px] font-['Sporting_Grotesque']  lg:text-[46px] md:leading-[47px] lg:leading-[73px]">Best full body <br />workout to lose fat</h1>
                     <p className=" max-w-sm font-normal text-[#928f8a] text-justify
                     text-xs leading-[22px] lg:leading-[28px] lg:text-base tracking-[.01em]">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. </p>
                     
