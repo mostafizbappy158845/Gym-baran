@@ -1,5 +1,6 @@
 import Image from "next/image";
 import bestFullBody from '../public/assets/bestFullBody.png'
+import ArrowRight from '../public/assets/ArrowRight.png'
 
 const BestFullBody = () => {
     return (
@@ -16,11 +17,14 @@ const BestFullBody = () => {
                     
                     <div className="pt-4"></div>
                     <div>
-                        <button className="lg:w-[246px] w-[176px] sm:w-[206px] flex items-center justify-between md:px-2 sm:px-8 p-4 rounded-[10px]  text-white bg-[#264373]">Get Started
+                        <button className="lg:w-[246px] w-[176px] sm:w-[206px] flex items-center justify-around md:px-2 sm:px-8 p-4 rounded-[10px]  text-white bg-[#264373]">
+                            <p>Get Started</p>
 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 inline-block h-6">
+                        <Image src={ArrowRight} alt=""></Image>
+
+                            {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 inline-block h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
+                            </svg> */}
 
 
                         </button>
