@@ -39,7 +39,7 @@ const StaticBar = () => {
                 <div className="relative flex flex-col-2  justify-items-center gap-8 ">
                     <div className="w-[100px] h-[100px] rounded-[20px] bg-[#A09EEE]">
                         {/* <Image className="" src={dancerMotion} alt='dancerMotion'></Image> */}
-                        <Image className="absolute top-[16%] left-[8%]" src={pose2} alt='dancerMotion'></Image>
+                        <Image className="absolute top-[19%] left-[8%]" src={pose2} alt='dancerMotion'></Image>
                     </div>
                     {/* mr-[30px] */}
                     <div className="">

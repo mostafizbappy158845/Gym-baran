@@ -20,7 +20,7 @@ const BestFullBody = () => {
                         <button className="lg:w-[246px] w-[176px] sm:w-[206px] flex items-center justify-around md:px-2 sm:px-8 p-4 rounded-[10px]  text-white bg-[#264373]">
                             <p>Get Started</p>
 
-                        <Image src={ArrowRight} alt=""></Image>
+                        <Image className="w-6 h-6" src={ArrowRight} alt=""></Image>
 
                             {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 inline-block h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
