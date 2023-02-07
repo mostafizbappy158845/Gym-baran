@@ -7,7 +7,8 @@ const Hero = () => {
     return (
 
         <section className=''>
-            <div className="container flex flex-col md:flex-row items-center justify-center  px-6 md:px-12   lg:pt-20">
+            {/* container  */}
+            <div className="flex flex-col md:flex-row items-center justify-center  px-6 md:px-12   lg:pt-20">
                 <div className='px-12 pt-[120px] md:pt-[200px] flex flex-col   md:w-1/2'>
                     <h1 className='max-w-md  font-bold mb-4 tracking-[.01em] leading-[39px]  text-[28px] font-["Sporting_Grotesque"]  lg:text-[56px] md:leading-[47px] lg:leading-[73px]'>Healthy in side<br /> <span className='text-[#8382EB]'> fresh</span> out side</h1>
                     <p className='max-w-sm font-normal text-[#928f8a] text-justify
